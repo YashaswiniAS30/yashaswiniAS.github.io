@@ -4,30 +4,272 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yashaswini A S | Computer Science Student</title>
-  <meta name="description" content="Personal portfolio of Yashaswini A S, Computer Science Engineering student interested in cybersecurity, Linux, Cloud and DevOps.">
+
+  <title>Yashaswini A S | Cybersecurity Student</title>
+
+  <meta name="description"
+    content="Yashaswini A S is a Computer Science Engineering student learning cybersecurity, Linux, networking and cloud computing.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #202938;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #101827;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    header h2 {
+      font-size: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #78dcca;
+    }
+
+    .hero {
+      background: #172b4d;
+      color: white;
+      padding: 75px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero h3 {
+      color: #9de4d5;
+      font-weight: normal;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto 25px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #78dcca;
+      color: #10243d;
+      padding: 10px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 35px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 28px;
+      margin-bottom: 24px;
+      border-radius: 12px;
+      box-shadow: 0 3px 14px rgba(20, 40, 70, 0.06);
+    }
+
+    section h2 {
+      color: #172b4d;
+      margin-bottom: 15px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #e8f3f3;
+      color: #205b57;
+      padding: 7px 13px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .project {
+      border-left: 4px solid #78dcca;
+      padding: 5px 0 5px 16px;
+    }
+
+    .project h3 {
+      margin-bottom: 8px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 5px 12px 5px 0;
+      color: #1765ad;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      background: #101827;
+      color: white;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 5px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Yashaswini A S</h1>
-  <h2>Computer Science Engineering Student</h2>
 
+  <header>
+    <h2>Yashaswini A S</h2>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Hi, I'm Yashaswini</h1>
+
+    <h3>Computer Science Engineering Student</h3>
+
+    <p>
+      I am learning cybersecurity, Linux, computer networking and
+      cloud computing. I enjoy exploring technology and building practical projects.
+    </p>
+
+    <a class="button" href="#projects">Explore My Projects</a>
+  </div>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am a Computer Science Engineering student interested
+        in cybersecurity and infrastructure technologies.
+        I am developing my knowledge through hands-on learning,
+        labs and personal projects.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <h3>Bachelor of Engineering – Computer Science</h3>
+
+      <p>PES College of Engineering, Mandya</p>
+
+      <p>Currently pursuing my engineering degree.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Learning</h2>
+
+      <div class="skills">
+        <span class="skill">Cybersecurity Fundamentals</span>
+        <span class="skill">Linux</span>
+        <span class="skill">Computer Networking</span>
+        <span class="skill">Cloud Computing</span>
+        <span class="skill">Git & GitHub</span>
+        <span class="skill">Kali Linux</span>
+      </div>
+
+      <p style="margin-top: 15px;">
+        These are areas I am currently learning and practising.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+  <h3>Keylogger Analysis</h3>
   <p>
-    I am learning cybersecurity, Linux, networking,
-    cloud computing and DevOps.
+    Completed a cybersecurity lab project exploring
+    keylogging behaviour, security risks, and detection.
   </p>
+  <p><strong>Status:</strong> Completed</p>
+</div>
 
-  <h2>Education</h2>
-  <p>Bachelor of Engineering – Computer Science</p>
-  <p>PES College of Engineering, Mandya</p>
-
-  <h2>Projects</h2>
-  <p>Key-Logger & RAT..</p>
-
-  <h2>Profiles</h2>
+<div class="project">
+  <h3>Remote Access Threat Analysis</h3>
   <p>
-    <a href="https://www.linkedin.com/">LinkedIn</a>
-    |
-    <a href="https://github.com/">GitHub</a>
+    Completed a lab-based study of remote access threats,
+    security risks, and defensive detection techniques.
   </p>
+  <p><strong>Status:</strong> Completed</p>
+</div>
+
+    <section id="contact">
+      <h2>Profiles</h2>
+
+      <p>You can find my learning journey and projects here:</p>
+
+      <div class="links">
+        <a href="https://github.com/YashaswiniAS30">
+          GitHub Profile
+        </a>
+
+        <a href="https://www.linkedin.com/">
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Yashaswini A S | Personal Portfolio</p>
+  </footer>
+
 </body>
 </html>
